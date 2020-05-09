@@ -9,7 +9,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. Installed GitHub Pages package as a dev-dependency using terminal.
 
 `cd aboutme` <br />
-`npm install gh-pages --save-dev`
+`npm install gh-pages --save-dev` <br />
 
 3. Open and Add properties to package.json file 
 
@@ -38,3 +38,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 `git add .` <br />
 `git commit -m "your commit description"` <br />
 `git push origin master` <br />
+
+# Node Package Manager for Front-End
+
+`npm install bootstrap` <br />
+`npm install react-router-dom` <br />
+
