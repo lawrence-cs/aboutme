@@ -13,14 +13,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 3. Open and Add properties to package.json file 
 
-`"homepage": "http://lawrence-cs.github.io/aboutme",
- //...,
- "scripts": {
-	//...
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
- }
-`
+`"homepage": "http://lawrence-cs.github.io/aboutme",`
+`//...,`
+`"scripts": {`
+`	//...`
+`	"predeploy": "npm run build",`
+`	"deploy": "gh-pages -d build"`
+` }`
 
 4. Create a Github repository and initialize it and add it as a remote in your local git repository using terminal
 
