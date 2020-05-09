@@ -43,4 +43,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `npm install bootstrap` <br />
 `npm install react-router-dom` <br />
+`npm install jquery` <br />
 
