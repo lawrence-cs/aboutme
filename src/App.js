@@ -18,7 +18,7 @@ function App() {
         <Router className="col-12">
             <Navigation_Bar />
             <br/>
-            <Route path="/" exact component={About_Me} />
+            <Route path="about_me" exact component={About_Me} />
             <Route path="/work_experience" component={Work_Experience} />
             <Route path="/notable_works" component={Notable_Works} />
             <Route path="/education" component={Education} />
