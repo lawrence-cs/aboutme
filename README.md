@@ -42,6 +42,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Node Package Manager for Front-End
 
 `npm install bootstrap` <br />
+`npm install react-bootstrap bootstrap` <br />
 `npm install react-router-dom` <br />
 `npm install jquery` <br />
 `npm install popper.js` <br />
