@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
         <Router className="col-12">
-            <Navigationbar />
+            <Navigation_Bar />
             <br/>
             <Route path="/" exact component={About_Me} />
             <Route path="/work_experience" component={Work_Experience} />
