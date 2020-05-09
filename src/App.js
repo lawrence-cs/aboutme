@@ -9,25 +9,22 @@ import Work_Experience from "./components/work_experience.component";
 import Notable_Works from "./components/notable_works.component";
 import Education from "./components/education.component";
 import Skills from "./components/skills.component";
+import Footer from "./components/footer.component";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Router className="col-12">
+            <Navigationbar />
+            <br/>
+            <Route path="/" exact component={About_Me} />
+            <Route path="/work_experience" component={Work_Experience} />
+            <Route path="/notable_works" component={Notable_Works} />
+            <Route path="/education" component={Education} />
+            <Route path="/skills" component={Skills} />
+            <Footer className="col-12"/>
+        </Router>
     </div>
   );
 }
