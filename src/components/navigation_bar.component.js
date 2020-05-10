@@ -12,19 +12,19 @@ export default class Navigation_Bar extends Component {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <li className="navbar-item">
-              <NavLink to="/about_me" className="nav-link" activeClassName="nav-link-active">About Me</Link>
+              <NavLink to="/about_me" className="nav-link" activeClassName="nav-link-active">About Me</NavLink>
             </li>
             <li className="navbar-item">
-              <NavLink to="/work_experience" className="nav-link" activeClassName="nav-link-active">Work Experience</Link>
+              <NavLink to="/work_experience" className="nav-link" activeClassName="nav-link-active">Work Experience</NavLink>
             </li>
             <li className="navbar-item">
-              <NavLink to="/notable_works" className="nav-link" activeClassName="nav-link-active">Notable Works</Link>
+              <NavLink to="/notable_works" className="nav-link" activeClassName="nav-link-active">Notable Works</NavLink>
             </li>
             <li className="navbar-item">
-              <NavLink to="/education" className="nav-link" activeClassName="nav-link-active">Education</Link>
+              <NavLink to="/education" className="nav-link" activeClassName="nav-link-active">Education</NavLink>
             </li>
             <li className="navbar-item">
-              <NavLink to="/skills" className="nav-link" activeClassName="nav-link-active">Skills</Link>
+              <NavLink to="/skills" className="nav-link" activeClassName="nav-link-active">Skills</NavLink>
             </li>
           </Nav>
         </Navbar.Collapse>
