@@ -12,19 +12,19 @@ export default class Navigation_Bar extends Component {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <li className="navbar-item">
-              <Link activeStyle={{ color: '#ddd'; border-bottom: '2px solid #ddd'; }} to="/about_me" className="nav-link">About Me</Link>
+              <Link activeStyle={{border-bottom: '2px solid #fff'; }} to="/about_me" className="nav-link">About Me</Link>
             </li>
             <li className="navbar-item">
-              <Link activeStyle={{ color: '#ddd'; border-bottom: '2px solid #ddd'; }} to="/work_experience" className="nav-link">Work Experience</Link>
+              <Link activeStyle={{border-bottom: '2px solid #fff'; }} to="/work_experience" className="nav-link">Work Experience</Link>
             </li>
             <li className="navbar-item">
-              <Link activeStyle={{ color: '#ddd'; border-bottom: '2px solid #ddd'; }} to="/notable_works" className="nav-link">Notable Works</Link>
+              <Link activeStyle={{border-bottom: '2px solid #fff'; }} to="/notable_works" className="nav-link">Notable Works</Link>
             </li>
             <li className="navbar-item">
-              <Link activeStyle={{ color: '#ddd'; border-bottom: '2px solid #ddd'; }} to="/education" className="nav-link">Education</Link>
+              <Link activeStyle={{border-bottom: '2px solid #fff'; }} to="/education" className="nav-link">Education</Link>
             </li>
             <li className="navbar-item">
-              <Link activeStyle={{ color: '#ddd'; border-bottom: '2px solid #ddd'; }} to="/skills" className="nav-link">Skills</Link>
+              <Link activeStyle={{border-bottom: '2px solid #fff'; }} to="/skills" className="nav-link">Skills</Link>
             </li>
           </Nav>
         </Navbar.Collapse>
