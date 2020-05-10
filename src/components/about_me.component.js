@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 export default class About_Me extends Component {
   render() {
@@ -8,7 +7,7 @@ export default class About_Me extends Component {
     	<div className="container">
     		<div className="row">
 	    		<div className="col-md-4">
-	    			<FontAwesomeIcon icon={faCoffee} />
+	    			<i className="fas fa-user-tie"></i>
 	    		</div>
 	    		<div className="col-md-8">
 		      		<h1 style={{ textTransform: 'uppercase'}}>Career Objective</h1>
