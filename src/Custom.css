@@ -6,12 +6,12 @@
 		font-size: 1.5em;
 	}
 	.nav-link-active{
+		font-weight: bold;
 		color: #fff;
 		border-bottom: 2px solid #fff;
 	}
 	.nav-link:hover{
 		color: #fff;
-		border-bottom: 2px solid #fff;
 	}
 }
 
