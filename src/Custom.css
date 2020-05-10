@@ -2,17 +2,11 @@
 	.navbar-expand-lg {
 	    padding: 30px;
 	}
-	.nav-link {
-		color: #fff;
-	}
 	.navbar-brand{
 		font-size: 1.5em;
 	}
-	.navbar-item{
-		color:#fff;
-	}
-
 	.nav-link:active{
+		color: #fff;
 		border-bottom: 2px solid #fff;
 	}
 }
