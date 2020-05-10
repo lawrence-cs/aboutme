@@ -10,10 +10,6 @@
 	}
 }
 
-footer{
-	margin-bottom: 56px;
-}
-
 #copyright-text{
 	position: fixed;
 	left: 0;
@@ -24,4 +20,8 @@ footer{
 
 #copyright-text p {
     margin-top: 1rem;
+}
+
+.container {
+	margin-bottom: 56px;
 }
