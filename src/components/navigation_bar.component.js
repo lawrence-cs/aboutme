@@ -7,7 +7,7 @@ export default class Navigation_Bar extends Component {
   render() {
     return (
       <Navbar bg="success" expand="lg" variant="dark">
-        <Navbar.Brand>Lawrence</Navbar.Brand>
+        <Navbar.Brand><strong>LAWRENCE</strong>PEREZ</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
