@@ -9,8 +9,8 @@ export default class Navigation_Bar extends Component {
       <Navbar bg="success" expand="lg" variant="dark">
         <Navbar.Brand>LAWRENCE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="justify-content-end">
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
             <li className="navbar-item">
               <Link to="/about_me" className="nav-link">About Me</Link>
             </li>
