@@ -13,9 +13,10 @@
 	.nav-link:hover{
 		color: #fff;
 	}
-	.nav-link{
-		color: #fff;
-	}
+}
+
+.nav-link{
+	color: #fff;
 }
 
 #copyright-text{
