@@ -10,7 +10,18 @@
 	}
 }
 
+footer{
+	margin-bottom: 56px;
+}
+
 #copyright-text{
+	position: fixed;
+	left: 0;
+	bottom: 0;
 	padding: 5px;
 	background-color: #007bff;
+}
+
+#copyright-text p {
+    margin-top: 1rem;
 }
