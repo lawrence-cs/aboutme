@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class About_Me extends Component {
   render() {
@@ -7,11 +7,7 @@ export default class About_Me extends Component {
     	<div className="container">
     		<div className="row">
 	    		<div className="col-md-4">
-	    			<FontAwesomeIcon icon="check-square" />
-				    Popular gadgets come from vendors like:
-				    <FontAwesomeIcon icon={['fab', 'apple']} />
-				    <FontAwesomeIcon icon={['fab', 'microsoft']} />
-				    <FontAwesomeIcon icon={['fab', 'google']} />
+	    			<FontAwesomeIcon icon={faCoffee} />
 	    		</div>
 	    		<div className="col-md-8">
 		      		<h1 style={{ textTransform: 'uppercase'}}>Career Objective</h1>
