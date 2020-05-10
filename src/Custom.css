@@ -5,7 +5,11 @@
 	.navbar-brand{
 		font-size: 1.5em;
 	}
-	.nav-link:active{
+	.nav-link-active{
+		color: #fff;
+		border-bottom: 2px solid #fff;
+	}
+	.nav-link:hover{
 		color: #fff;
 		border-bottom: 2px solid #fff;
 	}

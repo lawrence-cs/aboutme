@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap'
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export default class Navigation_Bar extends Component {
 
@@ -12,19 +12,19 @@ export default class Navigation_Bar extends Component {
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
             <li className="navbar-item">
-              <Link to="/about_me" className="nav-link">About Me</Link>
+              <Link to="/about_me" className="nav-link" activeClassName="nav-link-active">About Me</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/work_experience" className="nav-link">Work Experience</Link>
+              <Link to="/work_experience" className="nav-link" activeClassName="nav-link-active">Work Experience</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/notable_works" className="nav-link">Notable Works</Link>
+              <Link to="/notable_works" className="nav-link" activeClassName="nav-link-active">Notable Works</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/education" className="nav-link">Education</Link>
+              <Link to="/education" className="nav-link" activeClassName="nav-link-active">Education</Link>
             </li>
             <li className="navbar-item">
-              <Link to="/skills" className="nav-link">Skills</Link>
+              <Link to="/skills" className="nav-link" activeClassName="nav-link-active">Skills</Link>
             </li>
           </Nav>
         </Navbar.Collapse>
