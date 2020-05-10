@@ -4,8 +4,8 @@ export default class Footer extends Component {
   render() {
     return (
     	<footer>
-	    	<div id="copyright-text" className="row text-center">
-	    		<div className="col-12">
+	    	<div id="copyright-text" className="text-center">
+	    		<div className="row">
 	    			<p>Copyright © Your Website <span>{(new Date().getFullYear())}</span></p>
 	    		</div>
 	    	</div>
