@@ -10,8 +10,12 @@
 	}
 }
 
-.navbar-item .nav-link{
+.navbar-item{
 	color:#fff;
+}
+
+.nav-link:active{
+	border-bottom: 2px solid #fff;
 }
 
 #copyright-text{
