@@ -7,14 +7,15 @@
 	}
 }
 
-.navbar-dark .navbar-nav .nav-link-active{ 
-	color: #fff;
+.navbar-dark .navbar-nav .nav-link-active{
 	font-weight: bold;
 	border-bottom: 2px solid #fff;
 }
 
+.navbar-dark .navbar-nav .nav-link:focus,
 .navbar-dark .navbar-nav .nav-link:hover{
 	border-bottom: 2px dashed #fff;
+	color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
