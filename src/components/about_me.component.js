@@ -4,7 +4,7 @@ export default class About_Me extends Component {
   render() {
     return (
     	<div className="container">
-      		<h1>Career Objective</h1>
+      		<h1 style={{ textTransform: 'uppercase'}}>Career Objective</h1>
 			<p>
 				I am looking for a suitable position with a company where outstanding performance is recognised and where I can work on a variety of projects.
 			</p>
