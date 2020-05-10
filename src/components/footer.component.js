@@ -17,7 +17,7 @@ export default class Footer extends Component {
 	    		<div className="col-md-4">
 	    		</div>
 	    	</div>
-	    	<div className="row text-center">
+	    	<div id="copyright-text" className="row text-center">
 	    		<div className="col-12">
 	    			<p>Copyright © Your Website <span>{(new Date().getFullYear())}</span></p>
 	    		</div>
