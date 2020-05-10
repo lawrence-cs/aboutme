@@ -5,9 +5,7 @@ export default class Footer extends Component {
     return (
     	<footer>
 	    	<div id="copyright-text" className="text-center">
-	    		<div className="row">
-	    			<p>Copyright © Your Website <span>{(new Date().getFullYear())}</span></p>
-	    		</div>
+    			<p>Copyright © Your Website <span>{(new Date().getFullYear())}</span></p>
 	    	</div>
 	    </footer>
     )
