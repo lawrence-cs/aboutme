@@ -10,29 +10,18 @@ export default class About_Me extends Component {
 	    			<i className="fas fa-user-tie"></i>
 	    		</div>
 	    		<div className="col-md-8">
-		      		<h1 style={{ textTransform: 'uppercase'}}>Career Objective</h1>
+		      		<h1 style={{ textTransform: 'uppercase'}}>ABOUT ME</h1>
 					<p>
-						I am looking for a suitable position with a company where outstanding performance is recognised and where I can work on a variety of projects.
+						An ambitious problem solver with a passion for online businesses, and who would like to join a team of like-minded developers. I have experience in creating logical and innovative solutions to complex problems.
 					</p>
 					<p>
-						I am problem solver with a passion for technology, and I would like to be part of company that indulges professional growth which provides challenging and rewarding career while allowing me to utilise my skills and knowledge.
+						I am thorough and precise in everything I do, and have a keen interest in technology, mobile applications and user experience. As someone who takes responsibility for my own personal development, I continually evaluate and upgrade my skills.  I am a natural problem solver, who have proven myself by
+						successfully completing projects for consultancies, software houses, web design agencies, and IT departments.
+					</p>
+					<p>
+						Right now I am looking for a suitable position with a company where outstanding performance is recognised and where I can work on a variety of projects.
 					</p>
 				</div>
-    		</div>
-    		<div className="row">
-    			<div className="col-md-4">
-    				<h3>Location</h3>
-    				<p>
-    					Cranbourne, Victoria<br />
-    					Australia 3977
-    				</p>
-	    		</div>
-	    		<div className="col-md-4">
-
-	    		</div>
-	    		<div className="col-md-4">
-
-	    		</div>
     		</div>
     	</div>
     )
